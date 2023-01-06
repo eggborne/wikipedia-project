@@ -4,9 +4,6 @@
     <meta charset="utf-8">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-
-
-
     <title> Wiki Page</title>
   </head>
   <body>
@@ -95,18 +92,31 @@
       </div>
     </div>
     <div id="top-area">
-      <ul>
-        <li>Not logged in
-        <li><a href="#">Talk</a></li>
-        <li><a href="#">Contributions</a></li>
-        <li><a href="#">Create Account</a></li>
-        <li><a href="#">Log In</a></li>
-
-      </ul>
-    </div>
-
-    <div id="tab-area">
-      <!-- <div id="main-tab">Main</div> -->
-    </div>
+      <div id="link-list">
+        <div>Not logged in</div>
+        <div><a href="#">Talk</a></div>
+        <div><a href="#">Contributions</a></div>
+        <div><a href="#">Create Account</a></div>
+        <div><a href="#">Log In</a></div>
+      </div>
+      <div id="tab-area">
+        <div class="tab-group" id="left-tabs">
+          <div class="tab selected">Main Page</div>
+          <div class="tab">Talk</div>
+        </div>
+        <div class="tab-group" id="right-tabs">
+          <div class="tab selected">Read</div>
+          <div class="tab">View Source</div>
+          <div class="tab">View History</div>
+          <div id="search-area">
+            <input placeholder="Search Wikipedia" id="search-box">
+            <div id="search-icon"></div>
+          </div>
+          
+        </div>
+      
+      </div>      
+            
+    </div>    
   </body>
 </html>
